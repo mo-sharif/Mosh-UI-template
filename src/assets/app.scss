@@ -1,0 +1,20 @@
+// Bootstrap Layout scss
+@import '~bootstrap/scss/bootstrap';
+
+// Owl-Carousel css
+@import '~owl.carousel/dist/assets/owl.carousel.css';
+@import '~owl.carousel/dist/assets/owl.theme.default.css';
+
+// Magnific Popup css
+@import '~magnific-popup/dist/magnific-popup.css';
+
+// Page loader Topbar
+@import "pace/pace-theme-min.css";
+
+// Main style Layout
+@import "scss/style";
+
+// color variation scss (if you want use different color variation simply remove comment)
+ @import "scss/color/color-4";
+// Responsive Layout
+@import "scss/responsive";

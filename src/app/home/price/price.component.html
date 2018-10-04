@@ -1,0 +1,29 @@
+<!-- Price Section start-->
+<section id="price" class="price">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <!-- If images array is dynamically changing pass this array to [items] input -->
+        <owl-carousel [options]="pricingCarousel" [items]="price" [carouselClasses]="['price-carousel owl-theme']">
+          <div class="price-item" *ngFor="let prices of price">
+            <div class="price-block">
+              <div class="price-type">
+                <h2>{{prices.type}}</h2>
+              </div>
+              <div class="mrp">
+                <h6 class="user-type">{{prices.title}}</h6>
+                <div class="price-devide"></div>
+                <h2>{{prices.price}}</h2>
+                <h6 class="price-year">{{prices.duration}}</h6>
+                <div class="price-devide"></div>
+              </div>
+              <ul class="price-feature" [innerHTML]="prices.feature"></ul>
+              <a [routerLink]="'/demo'" class="btn btn-custom theme-color" role="button">Select Plan</a>
+            </div>
+          </div>
+        </owl-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Price Section End -->

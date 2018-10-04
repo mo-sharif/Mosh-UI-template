@@ -1,0 +1,26 @@
+<!-- Screenshot Section SStart -->
+<section id="screenshot" class="screenshot padding-top-bottom">
+  <div class="screenshot-decor">
+    <div class="screenshot-circle1"><img src="assets/images/feature-circle-two.png" alt="feature-circle-two"></div>
+    <div class="screenshot-circle2"><img src="assets/images/feature-circle.png" alt="feature-circle"></div>
+    <div class="screenshot-circle3"><img src="assets/images/main-banner1.png" alt="feature-circle-three"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 ">
+        <div class="screenshot-contain1">
+          <img class="mobile-light-left" src="assets/images/light.png" alt="light">
+          <img class="mob-mocup img-fluid" src="assets/images/screenshot-mob.png" alt="screenshot-mob">
+          <img class="mobile-light-right" src="assets/images/light-right.png" alt="light-right">
+          <!-- If images array is dynamically changing pass this array to [items] input -->
+          <owl-carousel [options]="carouselOptions" [items]="carouselImages" [carouselClasses]="['screenshot-carousel owl-theme']">
+            <div *ngFor="let screenshot of carouselImages">
+              <div class="screenshot-item"><img [src]="screenshot.image" alt="app"></div>
+            </div>
+          </owl-carousel>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Screenshot Section End -->

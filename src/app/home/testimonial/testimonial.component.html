@@ -1,0 +1,29 @@
+<!-- testimonial Section start-->
+<section id="testimonial" class="testimonial">
+  <div class="testimonial-decor">
+    <div class="testi-circle1"><img src="assets/images/Testimonial2.png" alt=""></div>
+    <div class="testi-circle2"><img src="assets/images/Testimonial1.png" alt=""></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <!-- If images array is dynamically changing pass this array to [items] input -->
+        <owl-carousel [options]="testimonialCarousel" [items]="testimonial" [carouselClasses]="['testimonial-carousel owl-theme']">
+          <div class="testimonial-item" *ngFor="let testimonials of testimonial">
+            <div class="testimonial-block">
+              <div class="testimonial-avtar">
+                <img [src]="testimonials.image" alt="">
+              </div>
+              <div class="testimonial-text">
+                <p>{{testimonials.description}}</p>
+                <h3>{{testimonials.name}}</h3>
+                <h6>{{testimonials.designation}}</h6>
+              </div>
+            </div>
+          </div>
+        </owl-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- testimonial Section End -->
