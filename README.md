@@ -7,7 +7,7 @@
 
 ## live demo
 
-[Draft Demo](https://mosh-media.github.io/Mosh-Web/home/one "Check it out")
+[Draft Demo](https://mosh-media.github.io/Mosh-Web "Check it out")
 
 [gh-pages tree](https://github.com/Mosh-Media/Mosh-Web/tree/gh-pages "Check it out")
 
@@ -21,6 +21,3 @@
 - [ ] Display Post content 
 - [ ] Enhance design and UX
 - [ ] front end view switched between templates.
-
-
-```Please check console after clicking the Buy Now button```
