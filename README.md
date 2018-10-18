@@ -2,7 +2,7 @@
 
 - Landing pages built using Angular. 
 - Can be used as a front end template for your website.
-- Requet resources from your blog or any API and loop over content.
+- Request resources from your blog or any API and loop over content.
 - Featuring 20 components and 4 color variations.
 
 ## live demo
