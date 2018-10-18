@@ -1,27 +1,24 @@
-# mosh web
+## Mosh Web
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+- Landing pages built using Angular. 
+- Can be used as a front end template for your website.
+- Requet resources from your blog or any API and loop over content.
+- Featuring 20 components and 4 color variations.
 
-## Development server
+## live demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[Draft Demo](https://mosh-media.github.io/Mosh-Web/home/one "Check it out")
 
-## Code scaffolding
+[Master tree](https://github.com/Mosh-Media/Mosh-Web/tree/master "Check it out")
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Todos
 
-## Build
+- [x] Layout and template design
+- [x] Routing between pages
+- [x] Use Observables for get and post data
+- [ ] Display Post content 
+- [ ] Enhance design and UX
+- [ ] front end view switched between templates.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```Please check console after clicking the Buy Now button```
